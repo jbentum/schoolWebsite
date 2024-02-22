@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>School Website</title>
+   
+
+    <!-- ICONSCOUT CDN -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+
+    <!-- GOOGLE FONTS (MONSTERRAT)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- SWIPER JS-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="container nav__container">
+        <a href="index.html"><h4>MELSTAR</h4></a>
+        <ul class="nav__menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+        <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+      </div>
+    </nav>
+    <!--===== END OF NAV BAR ========-->
+
+    <header>
+      <div class="container header__container">
+        <div class="header__left">
+          <h1>Grow your skills to advance your career path</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+            explicabo labore perspiciatis. Fuga cupiditate non eaque delectus
+            quis ad aliquam?
+          </p>
+          <a href="courses.html" class="btn btn-primary">Get Started</a>
+        </div>
+
+        <div class="header__right">
+          <div class="header__right-image">
+            <img src="./images/header.svg" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--========END OF HEADER================-->
+
+    <section class="categories">
+      <div class="container categories__container">
+        <div class="categories__left">
+          <h1>Categories</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
+            harum! Minus, autem mollitia ratione saepe recusandae harum eveniet,
+            fuga dolorum dolore delectus quam ea aspernatur! Excepturi
+            voluptatem sed quidem laboriosam!
+          </p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+        <div class="categories__right">
+          <article class="category">
+            <span class="category__icon"
+              ><i class="uil uil-bitcoin-circle"></i
+            ></span>
+            <h5>BIT</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus,
+              nulla!
+            </p>
+          </article>
+
+          <article class="category">
+            <span class="category__icon"><i class="uil uil-palette"></i></span>
+            <h5>Graphic Design</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus,
+              nulla!
+            </p>
+          </article>
+
+          <article class="category">
+            <span class="category__icon"
+              ><i class="uil uil-usd-circle"></i
+            ></span>
+            <h5>Finance</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus,
+              nulla!
+            </p>
+          </article>
+
+          <article class="category">
+            <span class="category__icon"
+              ><i class="uil uil-megaphone"></i
+            ></span>
+            <h5>Marketing</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus,
+              nulla!
+            </p>
+          </article>
+
+          <article class="category">
+            <span class="category__icon"><i class="uil uil-music"></i></span>
+            <h5>Music</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus,
+              nulla!
+            </p>
+          </article>
+
+          <article class="category">
+            <span class="category__icon"
+              ><i class="uil uil-puzzle-piece"></i
+            ></span>
+            <h5>Business</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus,
+              nulla!
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!--========= END OF CATEGORIES ================-->
+
+    <section class="courses">
+      <h2>Our Popular Courses</h2>
+      <div class="container courses__container">
+        <article class="course">
+          <div class="course__image">
+            <img src="./images/course1.jpg" />
+          </div>
+          <div class="course__info">
+            <h4>Responsive Social Media Website UI Design</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa
+              atque quis temporibus, omnis adipisci provident ut!
+            </p>
+            <a href="courses.html" class="btn btn-primary">Learn More</a>
+          </div>
+        </article>
+
+        <article class="course">
+          <div class="course__image">
+            <img src="./images/course2.jpg" />
+          </div>
+          <div class="course__info">
+            <h4>Responsive Smart Home Website Design</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa
+              atque quis temporibus, omnis adipisci provident ut!
+            </p>
+            <a href="courses.html" class="btn btn-primary">Learn More</a>
+          </div>
+        </article>
+
+        <article class="course">
+          <div class="course__image">
+            <img src="./images/course3.jpg" />
+          </div>
+          <div class="course__info">
+            <h4>Responsive Admin Dashboard UI Design</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa
+              atque quis temporibus, omnis adipisci provident ut!
+            </p>
+            <a href="courses.html" class="btn btn-primary">Learn More</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!--========= END OF COURSES ================-->
+
+    <section class="faqs">
+      <h2>Frequently Asked Questions</h2>
+      <div class="container faqs__container">
+        <article class="faq">
+          <div class="faq__icon"><i class="uil uil-plus"></i></div>
+          <div class="question__answer">
+            <h4>How do I know the right courses for me</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+              recusandae ad esse dolor voluptate obcaecati et, iure amet
+              repudiandae voluptates. Voluptatum saepe asperiores id, voluptas
+              nisi ad deserunt inventore vel!
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq__icon"><i class="uil uil-plus"></i></div>
+          <div class="question__answer">
+            <h4>How do I know the right courses for me</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+              recusandae ad esse dolor voluptate obcaecati et, iure amet
+              repudiandae voluptates. Voluptatum saepe asperiores id, voluptas
+              nisi ad deserunt inventore vel!
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq__icon"><i class="uil uil-plus"></i></div>
+          <div class="question__answer">
+            <h4>How do I know the right courses for me</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+              recusandae ad esse dolor voluptate obcaecati et, iure amet
+              repudiandae voluptates. Voluptatum saepe asperiores id, voluptas
+              nisi ad deserunt inventore vel!
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq__icon"><i class="uil uil-plus"></i></div>
+          <div class="question__answer">
+            <h4>How do I know the right courses for me</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+              recusandae ad esse dolor voluptate obcaecati et, iure amet
+              repudiandae voluptates. Voluptatum saepe asperiores id, voluptas
+              nisi ad deserunt inventore vel!
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq__icon"><i class="uil uil-plus"></i></div>
+          <div class="question__answer">
+            <h4>How do I know the right courses for me</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+              recusandae ad esse dolor voluptate obcaecati et, iure amet
+              repudiandae voluptates. Voluptatum saepe asperiores id, voluptas
+              nisi ad deserunt inventore vel!
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq__icon"><i class="uil uil-plus"></i></div>
+          <div class="question__answer">
+            <h4>How do I know the right courses for me</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+              recusandae ad esse dolor voluptate obcaecati et, iure amet
+              repudiandae voluptates. Voluptatum saepe asperiores id, voluptas
+              nisi ad deserunt inventore vel!
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq__icon"><i class="uil uil-plus"></i></div>
+          <div class="question__answer">
+            <h4>How do I know the right courses for me</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+              recusandae ad esse dolor voluptate obcaecati et, iure amet
+              repudiandae voluptates. Voluptatum saepe asperiores id, voluptas
+              nisi ad deserunt inventore vel!
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq__icon"><i class="uil uil-plus"></i></div>
+          <div class="question__answer">
+            <h4>How do I know the right courses for me</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+              recusandae ad esse dolor voluptate obcaecati et, iure amet
+              repudiandae voluptates. Voluptatum saepe asperiores id, voluptas
+              nisi ad deserunt inventore vel!
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq__icon"><i class="uil uil-plus"></i></div>
+          <div class="question__answer">
+            <h4>How do I know the right courses for me</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+              recusandae ad esse dolor voluptate obcaecati et, iure amet
+              repudiandae voluptates. Voluptatum saepe asperiores id, voluptas
+              nisi ad deserunt inventore vel!
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq__icon"><i class="uil uil-plus"></i></div>
+          <div class="question__answer">
+            <h4>How do I know the right courses for me</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+              recusandae ad esse dolor voluptate obcaecati et, iure amet
+              repudiandae voluptates. Voluptatum saepe asperiores id, voluptas
+              nisi ad deserunt inventore vel!
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!--========= END OF COURSES ================-->
+
+    <section class="container testimonials__container mySwiper">
+      <h2>Students' Testimonials</h2>
+      <div class="swiper-wrapper">
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="./images/avatar1.jpg" />
+          </div>
+          <div class="testimonial__info">
+            <h5>Diana Ayi</h5>
+            <small>Student</small>
+          </div>
+          <div class="testimonial__body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Similique totam modi distinctio quidem voluptatum exercitationem,
+              fuga praesentium, fugit vitae libero, natus dignissimos omnis
+              dolor minus nihil ipsum necessitatibus quod sed?
+            </p>
+          </div>
+        </article>
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="./images/avatar2.jpg" />
+          </div>
+          <div class="testimonial__info">
+            <h5>Jeffery Bentum</h5>
+            <small>Web Developer</small>
+          </div>
+          <div class="testimonial__body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Similique totam modi distinctio quidem voluptatum exercitationem,
+              fuga praesentium, fugit vitae libero, natus dignissimos omnis
+              dolor minus nihil ipsum necessitatibus quod sed?
+            </p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="./images/avatar3.jpg" />
+          </div>
+          <div class="testimonial__info">
+            <h5>Edem Quist</h5>
+            <small>Student</small>
+          </div>
+          <div class="testimonial__body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Similique totam modi distinctio quidem voluptatum exercitationem,
+              fuga praesentium, fugit vitae libero, natus dignissimos omnis
+              dolor minus nihil ipsum necessitatibus quod sed?
+            </p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="./images/avatar4.jpg" />
+          </div>
+          <div class="testimonial__info">
+            <h5>Koramah Asamoah</h5>
+            <small>Logistics</small>
+          </div>
+          <div class="testimonial__body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Similique totam modi distinctio quidem voluptatum exercitationem,
+              fuga praesentium, fugit vitae libero, natus dignissimos omnis
+              dolor minus nihil ipsum necessitatibus quod sed?
+            </p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="./images/avatar5.jpg" />
+          </div>
+          <div class="testimonial__info">
+            <h5>Princess Ayitey</h5>
+            <small>Logistics</small>
+          </div>
+          <div class="testimonial__body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Similique totam modi distinctio quidem voluptatum exercitationem,
+              fuga praesentium, fugit vitae libero, natus dignissimos omnis
+              dolor minus nihil ipsum necessitatibus quod sed?
+            </p>
+          </div>
+        </article>
+      </div>
+      <div class="swiper-pagination"></div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      // when window screen is greater than 600px
+
+      breakpoints: {
+        600: {
+          slidesPerView: 2,
+        }
+      }
+
+    });
+    </script>
+  </body>
+</html>
